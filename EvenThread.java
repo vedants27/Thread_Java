@@ -13,3 +13,9 @@ public class EvenThread extends Thread {
             }
         }
     }
+    // Overriding the run method to define thread behavior
+    @Override
+    public void run() {
+        printEvenNumbers();
+    }
+}
